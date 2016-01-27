@@ -21,6 +21,7 @@ class ViewController: UIViewController {
         print("digit = \(digit)")
         
         
+        
         if userIsInTheMiddleOfTypingANumber
         {
             display.text = display.text! + digit
