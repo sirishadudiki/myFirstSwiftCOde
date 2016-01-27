@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         let digit = sender.currentTitle!
         print("digit = \(digit)")
         
-        // stabiization comment
+        
         if userIsInTheMiddleOfTypingANumber
         {
             display.text = display.text! + digit
@@ -29,6 +29,10 @@ class ViewController: UIViewController {
         {
             display.text = digit;
             userIsInTheMiddleOfTypingANumber = true
+        }
+        
+        if true {
+            
         }
     }
 
