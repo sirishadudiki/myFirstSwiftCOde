@@ -31,7 +31,7 @@ class ViewController: UIViewController {
             userIsInTheMiddleOfTypingANumber = true
         }
         
-        if{
+        if true {
             
         }
     }
