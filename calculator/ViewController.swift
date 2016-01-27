@@ -30,10 +30,6 @@ class ViewController: UIViewController {
             display.text = digit;
             userIsInTheMiddleOfTypingANumber = true
         }
-        
-        if true {
-            
-        }
     }
 
     var operandStack = Array<Double>()
