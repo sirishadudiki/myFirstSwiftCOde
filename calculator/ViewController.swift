@@ -20,6 +20,7 @@ class ViewController: UIViewController {
         let digit = sender.currentTitle!
         print("digit = \(digit)")
         
+        // Test Git Commit
         if userIsInTheMiddleOfTypingANumber
         {
             display.text = display.text! + digit
